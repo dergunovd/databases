@@ -16,6 +16,7 @@ CREATE TABLE [Vacancies] (
 	wage integer(9),
 	date date NOT NULL DEFAULT 'CURRENT_TIME',
 	educationType integer NOT NULL,
+	status integer(3) NOT NULL,
   CONSTRAINT [PK_VACANCIES] PRIMARY KEY CLUSTERED
   (
   [id] ASC
